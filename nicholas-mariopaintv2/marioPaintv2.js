@@ -1,3 +1,7 @@
+
+var value = ''
+ 
+ 
   function setup(){
     createCanvas(1400, 1400);
     fill('red');
@@ -9,5 +13,12 @@
 }
 
 function mousePressed(){
-
+  if (value == 'red'){
+    function mouseDragged(){
+    fill('red')
+    ellipse(mouseX, mouseY, 100, 100);  
+    return false;
+}
+  }
+  return false;
 }

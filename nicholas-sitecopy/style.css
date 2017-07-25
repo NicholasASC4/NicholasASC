@@ -1,0 +1,29 @@
+.home {
+    text-align: center;
+    padding: 200px 100px;
+    background: blue;
+    color: white;
+}
+
+img {
+    border-bottom: 1px dashed white;
+}
+
+.btn {
+    border-radius: 0px;
+    background: whitesmoke;
+    color: blue;
+}
+
+.jumbotron h1{
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.jumbotron p{
+    font-size: 20px;
+    margin: 0px 150px;
+    margin-bottom: 25px;
+}
+

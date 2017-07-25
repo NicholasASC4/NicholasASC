@@ -1,0 +1,36 @@
+.title
+{
+    text-align: center;
+}
+
+.date
+{
+    margin-left: 20px;
+    padding-left: 20px;
+    border-left: 2px solid black;
+}
+
+h1
+{
+    font-size: 40pt;
+}
+
+p
+{
+    font-size: 20pt;
+}
+
+.date h1
+{
+    color:black;
+}
+
+.date h1 span
+{
+    color: grey;
+}
+
+body
+{
+    background-image: url("assets/hard wood.jpg")
+}

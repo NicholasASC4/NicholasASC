@@ -1,0 +1,22 @@
+body{
+    background: url("https://media.contentapi.ea.com/content/www-easports/en_US/fifa/news/2013/fifa-14-stadiums/_jcr_content/contentImages/image_0.img.jpg");
+    background-size: cover;
+
+}
+
+.jumbotron{
+    background-image: url("https://media.easports.com/content/dam/ea/easports/fifa/home/2017/june/5/homepage-share.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: grey;
+    border: 3px solid white;
+}
+
+.video{
+    text-align: center;
+}
+
+/* .row{
+    border: 3px solid white;
+} */

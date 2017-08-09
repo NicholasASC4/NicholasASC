@@ -1,0 +1,18 @@
+.jumbotron{
+    background: transparent;
+    color: black;
+}
+
+
+body{
+    background: url('https://i.ytimg.com/vi/-Ud0nMMC8I0/maxresdefault.jpg');
+    background-size: cover; 
+    text-align: center;
+    color: white;
+    margin: 0px 0px 0px 0px;
+    background-position: center;
+}
+
+footer{
+    margin: 200px 0px 0px 0px;   
+}

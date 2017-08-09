@@ -19,3 +19,65 @@ margin: 30px;
      margin: 10px;
  }
 
+#big{
+    margin: 0 auto;
+}
+#titleJumbo
+{
+    background-color: black;
+    /* background: "particles-config.json" */
+}
+
+.content{
+    margin-top: -69vh;
+    color: white;
+}
+
+.img-circle{
+    /* margin-top:; */
+}
+
+.barShort {
+    max-width: 40%;
+}
+.barShort {
+    background-color: black;
+    height: 3px;
+    margin: 25px auto;
+}
+
+
+/* #bio{
+    margin-top: 5px;
+} */
+
+h2#pro{
+    margin-bottom: 30px;
+    margin-top:40px;
+}
+
+#nav {
+    background: linear-gradient(rgba(59,61,66,1),transparent);
+    border: none;
+}
+
+.about:hover {
+    filter: blur(10px);
+
+}
+
+.about:hover .overlay{
+    opacity: 1;
+    
+}
+
+.overlay{
+    margin-top: -31vh;
+    opacity: 0;
+    
+}
+
+#bi{ 
+    font-size: 15pt;
+    font-weight: bold;
+    }

@@ -1,83 +1,111 @@
-.jumbotron2{
-
-text-align: center;
-margin: 30px;
-
-}  
-  .col-md-4{
-     text-align: center;
-
- } 
-/* 
- .container{
-     display: inline-block;
-     text-align: center;
- } */
-
- .thumbnail{
-     text-align: center;
-     margin: 10px;
- }
-
-#big{
+#jumbo2
+{
+    text-align: center;
     margin: 0 auto;
-}
+    background-color: white;
+    padding: 0px, 15px;
+} 
+
 #titleJumbo
 {
     background-color: black;
-    /* background: "particles-config.json" */
-}
-
-.content{
-    margin-top: -69vh;
     color: white;
 }
 
-.img-circle{
-    /* margin-top:; */
+#particles-js
+{
+    position: absolute;
+    background-color:transparent;
+    text-align: center;
+    height: 100%;
+    width: 100%;
 }
 
-.barShort {
-    max-width: 40%;
+.col-md-4
+{
+     text-align: center;
 }
-.barShort {
+
+.thumbnail
+{
+    text-align: center;
+    margin: 0 auto; 
+}
+
+#big
+{
+    /* margin-top: 10px; */
+}
+
+.content
+{
+    color: white;
+}
+
+.barShort
+{
     background-color: black;
+    max-width: 40%;
     height: 3px;
     margin: 25px auto;
 }
 
-
-/* #bio{
-    margin-top: 5px;
-} */
-
-h2#pro{
+#pro
+{
     margin-bottom: 30px;
     margin-top:40px;
 }
 
-#nav {
+#nav
+{
     background: linear-gradient(rgba(59,61,66,1),transparent);
     border: none;
 }
 
-.about:hover {
+#nav a
+{
+    color: white;
+}
+
+.about:hover
+{
     filter: blur(10px);
-
 }
 
-.about:hover .overlay{
-    opacity: 1;
-    
+.about:hover .overlay
+{
+    opacity: 1;   
 }
 
-.overlay{
-    margin-top: -31vh;
+.overlay
+{
+    margin-top: ;
     opacity: 0;
-    
 }
 
-#bi{ 
-    font-size: 15pt;
+#bi
+{ 
+    font-size: 15px;
     font-weight: bold;
-    }
+}
+
+#bottomJumbo
+{
+    background: transparent;
+    text-align: center;
+}
+
+#socialIcons
+{
+    text-align: center;
+}
+
+#Personal-Projects
+{
+    font-size: 45px;
+}
+
+#contact
+{
+    font-size: 45px;
+}

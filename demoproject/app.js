@@ -1,10 +1,28 @@
+var database = firebase.database().ref();
+
+function updateDB(){
+    var name = $("#name").val();
+    var score = points;
+    console.log(name + " : " + score);
+
+    var value = {
+        NAME: name,
+        SCORE: score
+    }
+    database.push(value)
+}
+
+var points = 0;
+
 function setup(){
 
-    var points = 0;
+    
     $('#score').html(points);
 
+    $('#logo').hide();
     $('.breaddd').hide();
     $('.Search').hide();
+    $('#bar').hide();
 
     var words = ["cat", "dog", "rat", "mouse", "hamster","summer","stall","throughput","operator","darling","whale","bell","water","boat","beach"]
 
@@ -13,6 +31,9 @@ function setup(){
     var sounding = new Audio('audio/none.mp3');
 
     $('#start').click(function(){
+        $('#logo').show();
+
+        $('#bar').show();
 
         $('.breaddd').show();
 

@@ -50,7 +50,7 @@
 
 #topCont{
     padding-top: 100px;
-    color: white;
+    color: white
 }
 #topCont h1{
     font-size: 90px;
@@ -62,4 +62,12 @@
 
 #bar h1{
     font-size: 60px;
+}
+
+/* body{
+    background-color: #e6e6e6;
+} */
+
+#data{
+    text-align: right;
 }

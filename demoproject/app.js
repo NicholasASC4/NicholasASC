@@ -31,6 +31,10 @@ function setup(){
     var sounding = new Audio('audio/none.mp3');
 
     $('#start').click(function(){
+        $('#firstJumbo').css("padding-bottom", "130px");
+        $('#firstJumbo').css("padding-top", "20px");
+        $('#particles-js').css("height", "100vh");
+
         $('#logo').show();
 
         $('#bar').show();
@@ -249,4 +253,5 @@ function setup(){
 
 
 $(document).ready(setup);
+
 

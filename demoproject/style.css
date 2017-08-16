@@ -29,8 +29,9 @@
     position: absolute;
     background-color:transparent;
     text-align: center;
-    height: 40vh;
-    width: 100vw;
+    height: 100vh;
+    width: 112vw;
+    margin: -250px;
 }
 
 /* .particles-js-canvas-el{
@@ -40,8 +41,8 @@
 #firstJumbo{
     background-image: url("kids-in-class4.jpg");
     background-size: cover;
-    padding-top: 0px;
-    padding-bottom: 130px;  
+    padding-top: 250px;
+    padding-bottom: 500px;  
 }
 .container{
     position: relative;
@@ -70,4 +71,9 @@
 
 #data{
     text-align: right;
+}
+
+body
+{
+    background: linear-gradient(pink, lightblue);
 }

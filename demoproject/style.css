@@ -1,0 +1,65 @@
+.jumbotron{
+    text-align: center;
+}
+
+.card{
+    text-align: center;
+}
+
+.card-body{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.barShort{
+    background-color: black;
+    max-width: 40%;
+    height: 3px;
+    margin: 25px auto;
+}
+
+#bar{
+    text-align: center;
+}
+
+#particles-js
+{
+    position: absolute;
+    background-color:transparent;
+    text-align: center;
+    height: 40vh;
+    width: 100vw;
+}
+
+/* .particles-js-canvas-el{
+    
+} */
+
+#firstJumbo{
+    background-image: url("kids-in-class4.jpg");
+    background-size: cover;
+    padding-top: 0px;
+    padding-bottom: 130px;  
+}
+.container{
+    position: relative;
+    z-index: 9999;
+}
+
+#topCont{
+    padding-top: 100px;
+    color: white;
+}
+#topCont h1{
+    font-size: 90px;
+}
+
+#topCont p{
+    font-size: 30;
+}
+
+#bar h1{
+    font-size: 60px;
+}
